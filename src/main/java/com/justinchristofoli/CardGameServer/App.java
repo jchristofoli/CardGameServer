@@ -9,7 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class App {
 	public static void main(String[] args) {
-		@SuppressWarnings({ "unused" })
+		@SuppressWarnings({ "unused", "resource" })
 		ApplicationContext context = new ClassPathXmlApplicationContext(
 				"Spring-Module.xml");
 	}
